@@ -9,22 +9,24 @@
 
 # Game Introduction
 
-Flappy Bird Go is an arcade-style mobile or desktop game inspired by the classic Flappy Bird concept. In this game, the player controls a bird that must fly through obstacles by tapping or pressing a key to keep the bird in the air. The goal is to survive as long as possible while passing through pipes or barriers without crashing.
+PICO PARK is a cooperative multiplayer puzzle platformer game developed by TECOPARK. The game focuses on teamwork, communication, and coordination between players. Each player controls a small character that must work together with others to solve puzzles and reach the goal.
 
-Unlike the original version, Flappy Bird Go introduces a progression system consisting of 40 rounds. Each round gradually increases the game difficulty by adjusting obstacle spacing, speed, and environmental elements. As players progress through the rounds, they face more challenging obstacles and faster gameplay, encouraging skill improvement and persistence.
+The main objective of the game is simple: all players must reach the goal door to clear a level. However, each stage introduces different mechanics that require cooperation. Players may need to stack on top of each other to reach high platforms, push objects or buttons together, carry keys to unlock doors, synchronize movements to avoid traps
 
-The game focuses on simple controls, increasing difficulty, and engaging gameplay, making it accessible for beginners while still challenging for experienced players.
+The game becomes more challenging as players progress through levels because puzzles require better coordination and timing. This project aims to develop a simplified PICO PARK–style cooperative puzzle game that demonstrates core game development concepts such as player control, physics, collision detection, level design, and multiplayer interaction.
+
+The final game will include multiple levels with increasing difficulty and cooperative puzzle mechanics.
 
 # Development timeline
 
 - Week 1 – Project Planning
   - [ ] Understand project requirements
-  - [ ] Research Flappy Bird game mechanics
+  - [ ] Research PICO PARK gameplay mechanics
   - [ ] Define project objectives and scope
 
 - Week 2 – Game Design Concept
-  - [ ] Design gameplay mechanics
-  - [ ] Plan the 40-round progression system
+  - [ ] Design cooperative gameplay mechanics
+  - [ ] Plan the level progression system
   - [ ] Create a basic game flow diagram
 
 - Week 3 – Development Environment Setup
@@ -34,45 +36,47 @@ The game focuses on simple controls, increasing difficulty, and engaging gamepla
 
 - Week 4 – Basic Game Window
   - [ ] Create the main game screen
-  - [ ] Implement the basic game loop
+  - [ ] - [ ] Implement the basic game loop
   - [ ] Test frame rendering and updates
 
-- Week 5 – Bird Character Implementation
-  - [ ] Create the bird character sprite
-  - [ ] Implement bird movement mechanics
-  - [ ] Add gravity and jump control
+- Week 5 – Player Character Implementation
+  - [ ] Create the player character sprite
+  - [ ] Implement player movement (left, right, jump)
+  - [ ] Add gravity and platform physics
 
-- Week 6 – Obstacle System
-  - [ ] Create pipe or obstacle objects
-  - [ ] Implement obstacle movement
-  - [ ] Display obstacles on the screen
+- Week 6 – Multiplayer Player System
+  - [ ] Implement multiple player characters
+  - [ ] Assign different control keys for each player
+  - [ ] Test simultaneous player movement
 
-- Week 7 – Collision Detection
-  - [ ] Detect collision between bird and pipes
-  - [ ] Detect collision with ground or ceiling
-  - [ ] Implement game over condition
+- Week 7 – Basic Platform and Level Design
+  - [ ] Create platform objects
+  - [ ] Design the basic level layout
+  - [ ] Implement player-platform collision detection
 
-- Week 8 – Scoring System
-  - [ ] Implement score counting system
-  - [ ] Increase score when passing obstacles
-  - [ ] Display score on the game screen
+- Week 8 – Key and Door System
+  - [ ] Create key objects
+  - [ ] Implement door unlocking mechanics
+  - [ ] Test interaction between players and keys
 
-- Week 9 – Round System (Rounds 1–10)
-  - [ ] Implement round progression logic
-  - [ ] Design difficulty settings for rounds 1–10
+- Week 9 – Cooperative Mechanics (Stacking)
+  - [ ] Allow players to stand on each other
+  - [ ] Implement stacking mechanics
+  - [ ] Test cooperative climbing puzzles
+
+- Week 10 – Cooperative Mechanics (Buttons and Objects)
+  - [ ] Add buttons or pressure plates
+  - [ ] Implement object pushing mechanics
+  - [ ] Create puzzles requiring multiple players
+
+- Week 11 – Level System (Levels 1–5)
+  - [ ] Design beginner levels
+  - [ ] Introduce basic puzzle mechanics
   - [ ] Test gameplay balance
 
-- Week 10 – Round System (Rounds 11–20)
-  - [ ] Adjust obstacle spacing and speed
-  - [ ] Introduce new obstacle patterns
-
-- Week 11 – Round System (Rounds 21–30)
-  - [ ] Increase difficulty gradually
-  - [ ] Improve obstacle generation system
-
-- Week 12 – Round System (Rounds 31–40)
-  - [ ] Finalize all 40 rounds
-  - [ ] Ensure difficulty scaling works properly
+- Week 12 – Level System (Levels 6–10)
+  - [ ] Increase puzzle complexity
+  - [ ] Add more interactive elements
 
 - Week 13 – User Interface Design
   - [ ] Create start menu screen
@@ -81,11 +85,11 @@ The game focuses on simple controls, increasing difficulty, and engaging gamepla
 
 - Week 14 – Sound and Visual Effects
   - [ ] Add background music
-  - [ ] Add sound effects (jump, collision, score)
+  - [ ] Add sound effects (jump, button press, door open)
   - [ ] Add simple visual animations
 
 - Week 15 – Testing Phase
-  - [ ] Conduct gameplay testing for all 40 rounds
+  - [ ] Conduct gameplay testing for all levels
   - [ ] Identify gameplay issues
   - [ ] Collect feedback and improvement suggestions
 
@@ -97,6 +101,7 @@ The game focuses on simple controls, increasing difficulty, and engaging gamepla
   - [ ] Prepare project documentation
   - [ ] Demonstrate the completed game
   - [ ] Present development process and results
+
 
 
 
